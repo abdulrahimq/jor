@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, render_template, json
-from flask_sqlalchemy import SQLAlchemy
 from journo import *
 
 app = Flask(__name__)
